@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chi fu mi</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stalinist+One&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/index.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Chi fu mi</h1>
+            <hr/>
+        </header>
+        <main>
+            <section class="flex-container scores">
+                <div>
+                    <p id="name-player-one" contenteditable>
+                        John Doe
+                    </p>
+                    <p id="score-player-one">0</p>
+                </div>
+                <div>
+                    <p id="versus">vs</p>
+                </div>
+                <div>
+                    <p id="name-player-two" contenteditable>
+                        Ordinateur
+                    </p>
+                    <p id="score-player-two">0</p>
+                </div>
+            </section>
+            <section class="flex-container figures">
+                <button id="rock">
+                    <i class="fas fa-hand-rock"></i>
+                </button>
+                <button id="paper">
+                    <i class="fas fa-hand-paper"></i>
+                </button>
+                <button id="scissors">
+                    <i class="fas fa-hand-scissors"></i>
+                </button>
+            </section>
+            <section>
+                <div id="logs"></div>
+            </section>
+            <button id="reset">Reset</button>
+        </main>
+        <footer>
+            <hr/>
+            <p>LESUEUR Yohann - Fevrier 2022 - Javascript</p>
+        </footer>
+    </body>
+</html>

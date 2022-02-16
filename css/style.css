@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+header hr {
+    width: 90%;
+    border: 1px solid rgb(163, 163, 163);
+}
+
+header h1 {
+    font-family: 'Stalinist One', cursive;
+}
+
+section {
+    margin: 15px 0;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+p {
+    font-size: 2em;
+}
+
+#versus {
+    font-size: 3em;
+    color: #dc3545;
+}
+
+.figure {
+    display: flex;
+}
+
+.figures button{
+    font-size: 5em;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+.figures button:hover {
+    background-color: #2e3436;
+    color: white;
+    transform: scale(1.1);
+}
+
+#logs {
+    width: 350px;
+    height: 150px;
+    border: 1px solid black;
+    margin: auto;
+    border-radius: 5px;
+    overflow-y: scroll;
+}
+
+#logs .player-win {
+    color: green;
+}
+
+#logs .computer-win {
+    color: #dc3545
+}
+
+#logs .null {
+    color: cornflowerblue;
+}
+
+footer p {
+    font-size: 1em;
+}
